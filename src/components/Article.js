@@ -1,8 +1,7 @@
 import React from "react"
 import { minutesToRead } from "../utility"
 
-function Article({ post }) {
-   const { preview, date = "January 1, 1970", minutes, title } = post
+function Article({ preview, date = "January 1, 1970", minutes, title }) {
    return (
       <article>
          <h3>{title}</h3>
